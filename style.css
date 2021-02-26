@@ -1,0 +1,44 @@
+@import url('./font-defs.css');
+
+:root {
+    --text-LM: #171718;
+    --text-DM: #eeeeee;
+    --bg-LM: #1c1c1f;
+    --bg-DM: #141414;
+    color: var(--text-DM);
+}
+
+body {
+    background: var(--bg-DM);
+}
+
+.StyleGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 2 / 1 / 3 / 2; }
+    .div3 { grid-area: 2 / 2 / 3 / 3; }
+    .div4 { grid-area: 2 / 3 / 3 / 4; }
+    .div5 { grid-area: 1 / 3 / 2 / 4; }
+    .div6 { grid-area: 1 / 2 / 2 / 3; }
+
+
+
+.ThemeToggle {
+	background-color:var(--text-DM);
+    color: var(--text-LM);
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Gotham_Regular;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+        

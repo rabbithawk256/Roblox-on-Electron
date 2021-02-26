@@ -1,0 +1,25 @@
+{
+  "name": "rabbithawk-electron-init",
+  "version": "1.0.0",
+  "description": "The init I use for electron apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabbithawk256/rabbithawk-electron-init.git"
+  },
+  "author": "rabbithawk256",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rabbithawk256/rabbithawk-electron-init/issues"
+  },
+  "homepage": "https://github.com/rabbithawk256/rabbithawk-electron-init#readme",
+  "devDependencies": {
+    "electron": "^11.3.0"
+  },
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.6"
+  }
+}

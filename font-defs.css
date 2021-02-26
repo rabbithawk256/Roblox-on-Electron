@@ -1,0 +1,66 @@
+/* Does anyone know an easier way to manage custom fonts?
+CSS Loves to make things as difficult as possible.
+If you do, dear anonymous Github user, please make a 
+pull request! */
+
+@font-face {
+    font-family: 'DINPro_Light';
+    src: url('./Fonts/DINPro/DINPro-Light tr.ttf');
+    font-weight: 'Light';
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro_Medium';
+    src: url('./Fonts/DINPro/DINPro-Medium tr.ttf');
+    font-weight: 'Medium';
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro_Regular';
+    src: url('./Fonts/DINPro/DINPro-Regular tr.ttf');
+    font-weight: 'Regular';
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro_Bold';
+    src: url('./Fonts/DINPro/DINPro-Bold tr.ttf');
+    font-weight: 'Bold';
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro_ExtraBold';
+    src: url('./Fonts/DINPro/DINPro-Black tr.ttf');
+    font-weight: 'ExtraBold';
+    font-style: normal;
+}
+
+
+
+/* Imports only common fonts from Gotham.
+If I imported everything, you'd have a spaghetti 
+mess of code
+
+(Also, do you REALLY need Metropolis Thin???)
+
+*/
+
+
+@font-face {
+    font-family: 'Gotham_Regular';
+    src: url('./fonts/Gotham/Metropolis-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gotham_Light';
+    src: url('./fonts/Gotham/Metropolis-Light.otf');
+}
+
+
+@font-face {
+    font-family: 'Gotham_Bold';
+    src: url('./fonts/Gotham/Metropolis-Bold.otf');
+}
